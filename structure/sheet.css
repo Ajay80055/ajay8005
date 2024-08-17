@@ -1,0 +1,123 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+body{ height: auto;
+    background: transparent;
+    font-family: Arial;
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background: white ;
+    padding: 2em 0 2em 0;
+}
+.main{
+    display: flex;
+    flex: 1;
+}
+.ring{
+    background: white;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+main{
+    background: white;
+    padding: 2em 0 2em 0;
+    flex: 5 5 150px;
+}
+.earings{
+    background:white;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px; 
+}
+footer{
+    background: white;
+    padding: 2em 0 2em 0;
+}
+.visit{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    color: tomato;
+    text-align: right;
+    text-shadow: 3px 3px 5px yellowgreen;
+}
+@media all and (max-width:550px)
+{
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
+}
+h4{
+    height: 300px;
+    width: 100%;
+}
+.name{
+    font-size: 20px ;
+    color: indigo;
+    font-family: sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px 5px yellowgreen ;
+    text-align: center;
+    overflow-y: scroll;
+}
+.B{
+    font-size: 20px ;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px 5px tomato ;
+}
+button{
+    border-radius: 10px;
+    border-color: red; 
+    background: white;
+}
+.all:hover{
+    background: chartreuse;
+    color: brown;
+}
+h4:hover{
+    color: palevioletred;
+}
+.B:hover{
+    color: aqua;
+}
+.footer:hover{
+ background: burlywood;
+}
+.contact:hover{
+    color: rgb(247, 142, 15);
+}
+a:hover{
+    color: springgreen;
+}
+button:hover{
+    background: skyblue;
+    color: wheat;
+}
+.ring:hover{
+    background: burlywood;
+}
+.earings:hover{
+    background: burlywood;
+}
+main:hover{
+    background: burlywood;
+    color: blue;
+}
+.header:hover{
+    background:  burlywood;
+    color: sienna;
+}
+.visit:hover{
+    color: chartreuse;
+}
+
